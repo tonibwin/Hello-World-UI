@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
 .App {
   text-align: center;
 }
@@ -16,6 +19,10 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.font-families{
+  font-family: 'Open Sans', sans-serif;
 }
 
 .App-link {
