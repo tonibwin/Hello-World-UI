@@ -6,6 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Route exact path={'/'} render={ (routerProps) => < Home routerProps={routerProps} setUpGame={this.setUpGame} />} />
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
